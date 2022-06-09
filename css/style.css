@@ -1,0 +1,182 @@
+.navbar{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a{
+    color: gray;
+    text-decoration: none;
+    margin-left: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.navhom, .navabt, .navpor, .navblog, .navtea{
+    margin-right: 12px;
+}
+
+.navcon{
+    margin-right: 45px;
+}
+
+.navbar a:hover{
+    background-color: greenyellow;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+body{
+    background-color: greenyellow;
+    margin: 0;
+}
+
+.main{
+    margin-top: 69px;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+#portofolio, #blog,  #team, #contact{
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 60px;
+}
+
+
+
+#home{
+    text-align: justify;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 158px;
+    padding-bottom: 158px;
+    margin-right: 400px;
+    margin-left: 100px;
+    margin-bottom: 35px;
+}
+
+
+
+#about{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 48px;
+    margin-bottom: 50px;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.lvidy{
+    border-radius: 50%;;
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.nama{
+    margin-bottom: 0px;
+}
+
+.keterangan{
+    margin-top: 0px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+#portofolio{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#portofolio h1{
+    margin-bottom: 15px;
+}
+
+#portofolio table{
+    text-align: justify;
+}
+
+.porto{
+    width: 400px;
+    height: 200px;
+}
+
+#blog{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#blog h1{
+    margin-bottom: 120px;
+}
+
+.blg{
+    width: 400px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+#team{
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+    margin-bottom: 0;
+}
+
+#team table{
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 120px;
+}
+
+#team img{
+    border-radius: 50%;
+    margin-left: 14px;
+}
+
+#contact{
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 120px;
+    padding-bottom: 180px;
+}
+
+#contact h1{
+    margin-bottom: 5px;
+}
+
+.con{
+    margin-top: 50px;
+}
+
+.con input{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
