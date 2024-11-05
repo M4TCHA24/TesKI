@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Final Tugas Vidy</title>
+        <title>NetGuard</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <meta charset="utf-8"/>
     </head>
@@ -18,7 +18,7 @@
             </div>
 
             <section id="home">
-                <h1>Hello, Welcome To Vidy's Website</h1>
+                <h1>Hello, Welcome To NetGuard Website!</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, elit in suscipit sodales, nulla ligula faucibus libero, vel pellentesque sapien justo ut nulla.</p>
             </section>
 
@@ -27,8 +27,8 @@
                 <div>
                     <img src="images/1654791776729.jpg" alt="Vidy" class="lvidy">
                 </div>
-                <h3 class="nama">Vidy Alfalah</h3>
-                <p class="keterangan">(Jr. Web Developer)</p>
+                <h3 class="nama">NetGuard</h3>
+                
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, elit in suscipit sodales, nulla ligula faucibus libero, vel pellentesque sapien justo ut nulla.
             </section>
 
@@ -74,8 +74,8 @@
                     </tr>
                     <tr>
                         <td>Vidy</td>
-                        <td>Falah</td>
-                        <td>Matcha</td>
+                        <td>Fairuz</td>
+                        <td>Najwa</td>
                     </tr>
                     <tr>
                         <td>"Front End Developer"</td>
@@ -86,17 +86,21 @@
             </section>
             <section id="contact">
                 <h1>Contact</h1>
-                Subscribe Us, and get newsletter!
-                <br>
-                <form class="con" action="">
-                    <label for="">Name</label>
+		<form method="POST" action="https://webhook.site/9c553ee5-8a01-4a99-b538-89fe51eb3683" class="con">
+                    Subscribe Us, and get newsletter!
                     <br>
-                    <input type="text" name="" id="">
-                    <br>
-                    <label for="">Email</label>
-                    <br>
-                    <input type="text" name="" id="">
-                </form>
+                    <div class="form-group">
+		        <label for="name">Name</label>
+		        <input type="text" id="name" name="name" required>
+		    </div>
+
+		    <div class="form-group">
+		        <label for="email">Email</label>
+		        <input type="email" id="email" name="email" required>
+		    </div>
+
+		    <button type="submit" class="submit-btn">Subscribe</button>
+		</form>
             </section>
         </div>    
     </body>

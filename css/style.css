@@ -168,15 +168,32 @@ h1{
     margin-bottom: 5px;
 }
 
-.con{
-    margin-top: 50px;
+.form-group {
+    margin-button: 20px;
 }
 
-.con input{
+.form-group label{
+    display: block;
+    margin-buttom: 5px;
+}
+
+.submit-btn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    boreder-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover{
+    background-color: #45A049;
+}
+
+.form-group input{
     text-align: center;
-    margin-bottom: 30px;
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
+    width: 500px;
+    margin-bottom: 10px;
 }
